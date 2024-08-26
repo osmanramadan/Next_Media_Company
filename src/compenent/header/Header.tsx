@@ -21,7 +21,6 @@ const Header = () => {
 
       <Navbar  />
       <div className={styles.right}>
-          {/* <div className={styles.btn}>Book an appointment</div> */}
             {/* <Link className={styles.btn} href="/login">Login</Link> */}
             {/* <Link className={styles.btn} href="/register">Register</Link> */}
       </div>

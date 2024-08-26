@@ -33,22 +33,22 @@ export default function WhyChooseUs() {
       paragraph: 'We believe in honesty, integrity and being honest with others. We will not sell you something you do not need, and we seriously follow the work process in a way that achieves your goals.',
     },
     {
-      imageSrc: imagethree,
+      imageSrc:imageone,
       title: 'You talk, we listen',
       paragraph: 'Online Media is an online marketing agency, we strive to understand our client’s business goals first. Then all decisions are made with these goals in mind.',
     },
     {
-        imageSrc:imagefour,
+        imageSrc:imageone,
         title: 'We are committed to deadlines and constantly interact with our clients',
         paragraph: 'We know that time is money in business, so we set realistic deadlines (for ourselves and our clients) and stick to them. We also constantly interact with clients to know the impact of the campaigns we run on their activities to improve the level of our services. To complete this interaction, we provide monthly reports on the results of these campaigns and discuss them with clients through Injaz Media.',
       },
       {
-        imageSrc: imagefive,
+        imageSrc: imageone,
         title: 'We create amazing designs',
         paragraph: 'We have chosen innovation in design and we do not have room for ready-made designs. Our goal is to position your company as a prominent player in your industry and outperform all competitors with attractive and expressive designs through which you can address customers (current and potential).',
       },
       {
-        imageSrc: imagesix,
+        imageSrc: imageone,
         title: 'WordPress Experts',
         paragraph: 'We build all our websites with the best content management software (CMS), which allows our clients to manage all the content on their websites from any device and add unlimited pages, posts, images, files and media, and we at Injaz Media train you for free to do this.',
       },
