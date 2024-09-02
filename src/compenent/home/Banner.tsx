@@ -1,9 +1,12 @@
 import Image from "next/image";
-import banner from '../../../public/images/bannerimage.jpg'
+import banner from '../../../public/images/bannerimage.png'
 import { TiTick } from "react-icons/ti";
 import styles from './banner.module.css';
 
+
+
 const Banner = () => {
+
     return (
         <div className={styles.hero}>
             <div className={styles.heroLeft}>

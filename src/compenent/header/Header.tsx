@@ -16,7 +16,7 @@ const Header = () => {
     <header className={styles.header}>
 
       <Link href="/" className={styles.logo}>
-          <img src="/images/logo.jpg"/>
+          <img src="/images/logos/logo2.png"/>
       </Link>
 
       <Navbar  />

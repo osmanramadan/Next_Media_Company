@@ -32,7 +32,7 @@ const Navbar = () => {
                     <Link onClick={() => setToggle(false)} className={styles.navLink} href="/articles">Articles</Link>
                     <Link onClick={() => setToggle(false)} className={styles.navLink} href="/about">About</Link>
                     <Link onClick={() => setToggle(false)} className={styles.navLink} href="/contact">Contact</Link>
-                    <Link onClick={() => setToggle(false)} className={styles.navLink} href="/contact">Services</Link>
+                    <Link onClick={() => setToggle(false)} className={styles.navLink} href="/#services">Services</Link>
                    {/* {isAdmin && (
                      <Link onClick={() => setToggle(false)} className={styles.navLink} href="/admin">Admin Dashboard</Link>
                    )} */}

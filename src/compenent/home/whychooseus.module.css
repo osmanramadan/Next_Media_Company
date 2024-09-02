@@ -10,13 +10,14 @@
   
 
 .itemContainer {
-    width: 500px; 
+    width: 410px; 
     padding: 25px;
     text-align: center;
     border: 1px double #555542;
     border-radius: 8px;
     margin-bottom:10px;
-    margin-left:10px
+    margin-left:10px;
+    margin-right:10px
   }
 
   .image {
@@ -46,8 +47,8 @@
   }
   
 .title{
-    font-weight:bold;
-    font-size:21px;
+    font-weight:semibold;
+    font-size:24px;
     margin-bottom:20px
 }
 

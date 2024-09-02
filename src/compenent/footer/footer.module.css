@@ -1,0 +1,26 @@
+.footer{
+    width:100%;
+    marginTop:35px;
+    marginBottom:10px;
+ 
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 22px;
+    font-weight: bold;
+    height:80px;
+    color:#45B4E9;
+    width:110px
+}
+
+.paragraph {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom:!40px;
+    /* font-family:"cairo" */
+  }
+  

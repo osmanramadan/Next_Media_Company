@@ -54,7 +54,7 @@ export default function Services() {
       },
   ];
   return (
-    <div>
+    <div id='services'>
       <SectionTitle txt="Services" />
 
       <div className={style.main}  style={{ fontFamily: cairo.style.fontFamily }}>

@@ -9,15 +9,12 @@ import Footer from "@/compenent/footer/Footer";
 export default function Home() {
   return (
     <div>
-      
       <Banner/>
       <WhyChooseUs/>
       <Services/>
       <BusinessCountup/>
       <OurCustomers/>
       <Footer/>
-    
-
     </div>
   );
 }
