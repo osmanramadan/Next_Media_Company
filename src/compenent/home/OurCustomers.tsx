@@ -37,7 +37,7 @@ const customerImages = [
   ];
  
   return (
-    <div className='mb-4'>
+    <div className='mb-7!'>
       <SectionTitle txt="Our Customers" />
 
       <Swiper
@@ -54,6 +54,8 @@ const customerImages = [
           </SwiperSlide>
         ))}
       </Swiper>
+      <hr style={{ border: '2px solid #909090',marginTop:"30px", width: '100%' }} />
+
     </div>
   );
 }

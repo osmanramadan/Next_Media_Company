@@ -1,26 +1,47 @@
-.footer{
-    width:100%;
-    marginTop:35px;
-    marginBottom:10px;
- 
+.footer {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row; /* Set the direction to row */
+    justify-content: space-around; /* Space the items evenly */
+    align-items: center; /* Align items vertically in the center */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  }
+  
+  
+
+.item{
+   width:25%
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    font-size: 22px;
-    font-weight: bold;
-    height:80px;
-    color:#45B4E9;
-    width:110px
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  height: 80px;
+  color: #45B4E9;
+  width: 110px;
 }
 
 .paragraph {
     margin-top: 8px;
     font-size: 1rem;
     color: #555;
-    margin-bottom:!40px;
-    /* font-family:"cairo" */
+    text-align: left;
+    margin-left:30px
   }
   
+
+/* Media query for screens smaller than 768px (mobile/tablet) */
+@media (max-width: 768px) {
+    .footer {
+      flex-direction: column; /* Change direction to column */
+      align-items: center; /* Align items to the start of the column */
+    }
+  
+    .item {
+      width: 100%; /* Make items take up full width */
+      margin: 10px 0; /*Adjust margin for better spacing*/
+    }
+  }
