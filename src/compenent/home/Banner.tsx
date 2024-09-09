@@ -1,5 +1,5 @@
 import Image from "next/image";
-import banner from '../../../public/images/bannerimage.png'
+import banner from '../../../public/images/banner.png'
 import { TiTick } from "react-icons/ti";
 import styles from './banner.module.css';
 

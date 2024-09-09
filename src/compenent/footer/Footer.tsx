@@ -12,7 +12,7 @@ export default function Footer() {
       <ul className="text-gray-500 dark:text-gray-400 font-medium">
             <li className="mb-4 flex justify-center">
             <Link href="/">
-            <img src="/images/logos/logo2.png" className={style.logo} alt="Company Logo" />
+            <img src="/images/logos/logo.png" className={style.logo} alt="Company Logo" />
             </Link>
             </li>
             <li className="mb-4">
@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
         
         <div className={`${style.item} text-center`} style={{width:'25%'}}>
-          <h2 className="mb-6 text-xl font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
+          <h2 className="mb-6 text-xl font-semibold text-gray-900 uppercase dark:text-white">Privacy</h2>
           <ul className="text-gray-500 dark:text-gray-400 font-medium">
           <li className="mb-4">
               <a href="#" className="hover:underline">Link 1</a>
@@ -77,8 +77,8 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className={`flex flex-col sm:flex-row justify-center items-center mt-8`}>
-        <div className="text-sm text-white sm:text-left mx-5">
+      <div className={`flex flex-col sm:flex-row justify-center items-center mt-8 mx-2`}>
+        <div className="text-sm text-white sm:text-left mx-8">
           © 2024 <a href="https://flowbite.com/" className="hover:underline">OnlineMedia</a>: All Rights Reserved
         </div>
 

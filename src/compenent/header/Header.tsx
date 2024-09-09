@@ -16,14 +16,16 @@ const Header = () => {
     <header className={styles.header}>
 
       <Link href="/" className={styles.logo}>
-          <img src="/images/logos/logo2.png"/>
+          <img src="/images/logos/logo.png"/>
       </Link>
-
+             
       <Navbar  />
       <div className={styles.right}>
-            {/* <Link className={styles.btn} href="/login">Login</Link> */}
-            {/* <Link className={styles.btn} href="/register">Register</Link> */}
+
+            {/* <Link className={styles.btn} href="/login">Login</Link>
+            <Link className={styles.btn} href="/register">Register</Link> */}
       </div>
+     
     </header>
   )
 }
