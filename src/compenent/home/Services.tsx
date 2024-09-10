@@ -18,6 +18,7 @@ interface ServicesItemProps {
   imageSrc: StaticImageData;
   title: string;
   paragraph: string;
+  link:string;
 }
 
 export default function Services() {
@@ -25,31 +26,37 @@ export default function Services() {
     {
       imageSrc: imageone,
       title: 'Innovative Video Production',
+      link:"/services/videoproduction",
       paragraph:`Go viral for video production where you can elevate your digital marketing efforts by…`,
     },
     {
       imageSrc:imagetwo,
       title: 'Website design and hosting',
+      link:"/services/websitedesign",
       paragraph: 'Website design and hosting is one of the most important companies that surpasses all companies and more....',
     },
     {
       imageSrc:imagethree,
       title: 'Social Media Management',
+      link:"/services/socialmediamanagement",
       paragraph: 'Marketing Campaign Management We gained our leadership from our ability to manage marketing campaigns through social media sites...',
     },
     {
         imageSrc:imagefour,
         title: 'Brand identity design',
+        link:"/services/designlogo",
         paragraph: 'An identity that expresses you and creates a unique space for you among your competitors. Designing commercial identities is the process of creating a unique identity that distinguishes...',
       },
       {
         imageSrc: imagefive,
         title: 'Animation video production',
+        link:"/services/animationvideoproduction",
         paragraph: 'Animated videos are a pro in your marketing campaign! We are here to help you design your animated videos...',
       },
       {
         imageSrc: imagesix,
         title: 'Google AdWords ads',
+        link:"/services/googleads",
         paragraph: 'Accuracy in targeting your potential customers! At Injaz Media, we display Google ads to customers when they use any platform...',
       },
   ];
@@ -59,7 +66,7 @@ export default function Services() {
 
       <div className={style.main}  style={{ fontFamily: cairo.style.fontFamily }}>
       {items.map((item, index) => (
-          <ServiceItem key={index} imageSrc={item.imageSrc} title={item.title} paragraph={item.paragraph} />
+          <ServiceItem key={index} link={item.link} imageSrc={item.imageSrc} title={item.title} paragraph={item.paragraph} />
         ))}
       </div>
     </div>

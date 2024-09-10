@@ -1,0 +1,25 @@
+.main {
+    margin-top: -8px;
+    background-color:#44B4EC;
+    height: 100px;
+    z-index: 1000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column
+}
+
+
+.subtitle {
+    font-weight: 500;
+    margin-right:5px;
+    font-size:12px;
+    margin-bottom:5px
+  }
+  
+.title {
+    font-weight: 700;
+    font-size:20px;
+    margin-top:10px
+  }
+  

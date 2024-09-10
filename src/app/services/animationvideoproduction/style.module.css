@@ -1,0 +1,26 @@
+.txtbanner {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column; /* Default to column for small screens */
+    padding:30px
+  }
+  
+  /* For medium and larger screens, switch to row layout */
+  @media (min-width: 768px) {
+    .txtbanner {
+      flex-direction: row;
+    }
+  }
+  
+  .imagecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .image {
+    border-radius: 100px;
+  }
+  

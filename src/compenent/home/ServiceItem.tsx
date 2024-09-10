@@ -6,23 +6,20 @@ interface WhyChooseUsItemProps {
   imageSrc: StaticImageData;
   title: string;
   paragraph: string;
+  link: string;
 }
 
-export default function ServiceItem({ imageSrc, title, paragraph }: WhyChooseUsItemProps) {
+export default function ServiceItem({ imageSrc, title, paragraph, link }: WhyChooseUsItemProps) {
   return (
-    <div className={style.itemContainer}>
-      <div className={style.image}>
-         <Image src={imageSrc} className="rounded-full" height={150} width={140} alt={title} />
-         <div className={style.imageOverlay}></div>
+    <a href={link} className={style.itemLink}  rel="noopener noreferrer">
+      <div className={style.itemContainer}>
+        <div className={style.image}>
+          <Image src={imageSrc} className="rounded-full" height={150} width={140} alt={title} />
+          <div className={style.imageOverlay}></div>
+        </div>
+        <span className={style.title}>{title}</span>
+        <p className={style.paragraph}>{paragraph}</p>
       </div>
-      <span className={style.title}>{title}</span>
-      <p className={style.paragraph}>{paragraph}</p>
-      {/* <div className='flex justify-center items-center'>
-  <div className='flex justify-center items-center rounded-full' style={{width:"200px",height:"40px",marginTop:"20px",fontSize:"20px",fontWeight:"bold",backgroundColor:"#425542",color:"#2091D3"}}>
-    Show The service
-  </div>
-</div> */}
-
-    </div>
+    </a>
   );
 }
