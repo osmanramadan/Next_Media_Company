@@ -22,8 +22,8 @@ const Header = () => {
       <Navbar  />
       <div className={styles.right}>
 
-            {/* <Link className={styles.btn} href="/login">Login</Link>
-            <Link className={styles.btn} href="/register">Register</Link> */}
+            {/* <Link className={styles.btn} href="/login">Login</Link> */}
+            {/* <Link className={styles.btn} href="/register">Register</Link> */}
       </div>
      
     </header>

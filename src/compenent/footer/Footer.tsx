@@ -8,74 +8,92 @@ export default function Footer() {
 
       <div  className={`${style.footer}`}>
 
-      <div className={`${style.item} text-center mb-8 ml-4`}>
-      <ul className="text-gray-500 dark:text-gray-400 font-medium">
-            <li className="mb-4 flex justify-center">
+      <div className={`${style.item}`}>
+      <ul className="font-medium">
+            <li className="flex justify-center sm:justify-start md:justify-start lg:justify-start">
             <Link href="/">
             <img src="/images/logos/logo.png" className={style.logo} alt="Company Logo" />
             </Link>
             </li>
-            <li className="mb-4">
+            <li>
             <p className={style.paragraph}>
                A leading digital marketing agency since 2009, offering services in digital marketing, brand identity design, video production, web solutions, programming, and hosting.
             </p>
             </li>
           </ul>
         </div>
+        <div className={`${style.item} text-start`} >
+          <h2 className="mb-6 text-xl font-semibold text-gray-900 uppercase">Services</h2>
+          <ul className="text-gray-500   font-medium" >
+            <li className="mb-4">
+              <a href="/services/videoproduction" className="hover:underline">Video Production</a>
+            </li>
+            <li className="mb-4">
+              <a href="/services/websitedesign" className="hover:underline">Website Design And Hosting</a>
+            </li>
+            <li className="mb-4">
+              <a href="/services/socialmediamanagement" className="hover:underline">Social Media Management</a>
+            </li>
+            <li className="mb-4">
+              <a href="/services/designlogo" className="hover:underline">Design Logo</a>
+            </li>
+            <li className="mb-4">
+              <a href="/services/animationvideoproduction" className="hover:underline">Animation Video Production</a>
+            </li>
+            <li className="mb-4">
+              <a href="/services/googleads" className="hover:underline">Google Ads</a>
+            </li>
+            
+          </ul>
+        </div>
 
-        <div className={`${style.item} text-center`} style={{width:'25%'}}>
-          <h2 className="mb-6 text-xl font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
+        <div className={`${style.item} text-start`}>
+          <h2 className="mb-6 text-xl font-semibold text-gray-900 uppercase">Fast Links</h2>
+          <ul className="text-gray-500 dark:text-gray-400 font-medium">
+
+            <li className="mb-4">
+              <a href="/contact" className="hover:underline mt-2">Contact</a>
+            </li>
+            <li className="mb-4">
+              <a href="/about" className="hover:underline mt-2">About</a>
+            </li>
+            <li className="mb-4">
+              <a href="/articles" className="hover:underline mt-2">Articles</a>
+            </li>
+            <li className="mb-4">
+              <a href="/#services" className="hover:underline mt-2">Services</a>
+            </li>
+            <li className="mb-4">
+              <a href="/privacy&policy" className="hover:underline mt-2">Privacy & Policy</a>
+            </li>
+          </ul>
+        </div>
+
+        <div className={`${style.item} text-start`}>
+          <h2 className="mb-6 text-xl font-semibold text-gray-900 uppercase ">Contact Us</h2>
           <ul className="text-gray-500 dark:text-gray-400 font-medium">
             <li className="mb-4">
-              <a href="#" className="hover:underline">Link 1</a>
+            <div>
+              <i className="bi bi-geo-alt-fill" style={{ color: "#44B4EC", fontSize: "20px" }}></i>
+              <span className='ml-2'>4 Tripoli Street - Abbas El Akkad - Nasr City - Cairo - Egypt</span>
+            </div> 
             </li>
             <li className="mb-4">
-              <a href="#" className="hover:underline">Link 2</a>
+              <div>   <i className="bi bi-telephone-fill" style={{ color: "#44B4EC", fontSize: "20px" }}></i>
+              <a href='tel:0100923877' className='ml-2'>0100923877</a></div>
             </li>
             <li className="mb-4">
-              <a href="#" className="hover:underline">Link 3</a>
+              <div> <i className="bi bi-envelope-fill" style={{ color: "#44B4EC", fontSize: "20px" }}></i>
+              <a href='mailto:osman@gmail.com' className='ml-2'>osman@gmail.com</a></div>
             </li>
             <li className="mb-4">
-              <a href="#" className="hover:underline">Link 4</a>
+              <div>   <i className="bi bi-whatsapp" style={{ color: "#44B4EC", fontSize: "20px" }}></i>
+              <a className='ml-2'>0100823766</a></div>
             </li>
           </ul>
         </div>
         
-        <div className={`${style.item} text-center`} style={{width:'25%'}}>
-          <h2 className="mb-6 text-xl font-semibold text-gray-900 uppercase dark:text-white">Privacy</h2>
-          <ul className="text-gray-500 dark:text-gray-400 font-medium">
-          <li className="mb-4">
-              <a href="#" className="hover:underline">Link 1</a>
-            </li>
-            <li className="mb-4">
-              <a href="#" className="hover:underline">Link 2</a>
-            </li>
-            <li className="mb-4">
-              <a href="#" className="hover:underline">Link 3</a>
-            </li>
-            <li className="mb-4">
-              <a href="#" className="hover:underline">Link 4</a>
-            </li>
-          </ul>
-        </div>
 
-        <div className={`${style.item} text-center`} style={{width:'25%'}}>
-          <h2 className="mb-6 text-xl font-semibold text-gray-900 uppercase">Company</h2>
-          <ul className="text-gray-500 dark:text-gray-400 font-medium">
-            <li className="mb-4">
-              <a href="#" className="hover:underline">Link 1</a>
-            </li>
-            <li className="mb-4">
-              <a href="#" className="hover:underline">Link 2</a>
-            </li>
-            <li className="mb-4">
-              <a href="#" className="hover:underline">Link 3</a>
-            </li>
-            <li className="mb-4">
-              <a href="#" className="hover:underline">Link 4</a>
-            </li>
-          </ul>
-        </div>
       </div>
       <div className={`flex flex-col sm:flex-row justify-center items-center mt-8 mx-2`}>
         <div className="text-sm text-white sm:text-left mx-8">

@@ -3,7 +3,7 @@ import Services from "@/compenent/home/Services";
 import WhyChooseUs from "@/compenent/home/WhyChooseUs";
 import BusinessCountup from "@/compenent/home/BusinessCountup";
 import OurCustomers from "@/compenent/home/OurCustomers";
-import Footer from "@/compenent/footer/Footer";
+
 
 
 export default function Home() {
@@ -14,7 +14,6 @@ export default function Home() {
       <Services/>
       <BusinessCountup/>
       <OurCustomers/>
-      <Footer/>
     </div>
   );
 }

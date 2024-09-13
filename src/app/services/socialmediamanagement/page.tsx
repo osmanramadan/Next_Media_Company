@@ -11,7 +11,7 @@ export default function ContentWrite() {
       style={{ backgroundColor: "black", color: "white", height: "100vh" }}
     >
       <div>
-        <MainBanner title={"Social Media Management"}/>
+        <MainBanner title={"Social Media Management"} isservice={true}/>
         <div className={`flex flex-col md:flex-row ${style.txtbanner}`}>
           <div className={`${style.imagecontainer} w-full md:w-1/2`}>
             <img

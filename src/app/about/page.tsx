@@ -1,8 +1,38 @@
-import React from 'react'
 
-export default function about() {
+import React from 'react';
+import style from "./about.module.css";
+import MainBanner from '@/compenent/services/mainbanner';
+
+
+export default function AboutUs() {
 
   return (
-    <div className='mt-10 py-4 shadow-lg mx-2' style={{backgroundColor:"black",color:"white",height:"100vh"}}>hello from about</div>
-  )
+    <div
+      style={{ backgroundColor: "black", color: "white", height: "100vh",marginBottom:"auto" }}
+    >
+      <div>
+        <MainBanner title={"About Us"} isservice={false}/>
+        <div className={`flex flex-col md:flex-row ${style.txtbanner}`}>
+          <div className={`${style.imagecontainer} w-full md:w-1/2`}>
+            <img
+              className={`${style.image}`}
+              src={'/images/aboutus.png'}
+              width={400}
+              height={400}
+              alt=''
+            />
+          </div>
+          <div className="w-full md:w-1/2 mt-8 md:mt-32 mx-2">
+            <span className="block text-3xl font-bold">OnlineMedia</span>
+
+            <div className="flex flex-col justify-between mt-3">
+            Online Media is a leading digital marketing agency providing comprehensive services, specializing in digital marketing services, brand identity design, as well as web solutions, programming, and web hosting services.
+            Since our inception, we have focused on excellence and creativity. We have been working for over 10 years with a qualified and experienced team consisting of marketers, designers, and developers. We have come together in the field of specialization to develop and innovate.
+            </div>
+          </div>
+        </div>
+     
+      </div>
+    </div>
+  );
 }

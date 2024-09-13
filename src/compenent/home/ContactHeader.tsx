@@ -5,13 +5,7 @@ import style from './contactheader.module.css'
 
 
 export default function ContactHeader() {
-  const iconStyle = {
-    transition: 'color 0.3s ease'
-  };
 
-  const iconHoverStyle = {
-    color: 'red'
-  };
 
   return (
     <div
@@ -34,7 +28,7 @@ export default function ContactHeader() {
       </div>
       
 
-      <div   className={`${style.main}`} style={{paddingRight:"40px"}}>
+      <div   className={`${style.main} mb-2`} style={{paddingRight:"40px"}}>
 
         <div className="bg-[#2091D3] mx-2">
           

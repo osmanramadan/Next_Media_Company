@@ -25,6 +25,18 @@
     width:120px
 }
 
+.navlogo {
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+    font-size: 10px;
+    font-weight: bold;
+    height:100px;
+    width:100px;
+    color:#45B4E9;
+    display:none
+}
+
 .menu {
     font-size: 40px;
     font-weight: bold;
@@ -59,12 +71,12 @@
     padding: 5px 10px;
     font-size: 21px;
     font-weight: 600;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
 }
 
 .btn:hover {
-    background-color:#ED800A;
+    background-color:#555555;
 }
 
 .navLink:hover {
@@ -75,6 +87,9 @@
 @media (max-width: 1080px) {
     .logo {
         display: none;
+    }
+    .navlogo{
+        display:block
     }
 
     .menu {
