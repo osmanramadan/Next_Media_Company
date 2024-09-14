@@ -11,7 +11,7 @@ export default function ContactHeader() {
     <div
       className={`py-4  rounded-md ${style.main}`}
     >
-      <div style={{width:"50%"}}  className={`mx-2 ${style.contact}`}>
+      <div style={{width:"50%"}}  className={`mx-2  ${style.contact}`}>
 
         <div className="flex items-center  mx-2">
           <FontAwesomeIcon icon={faPhone} height={20} width={20} />
