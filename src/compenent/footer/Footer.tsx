@@ -12,7 +12,7 @@ export default function Footer() {
       <ul className="font-medium">
             <li className="flex justify-center sm:justify-start md:justify-start lg:justify-start">
             <Link href="/">
-            <img src="/images/logos/logo.png" className={style.logo} alt="Company Logo" />
+            <img src="/images/logos/logo.PNG" className={style.logo} alt="Logo" />
             </Link>
             </li>
             <li>
