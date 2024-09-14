@@ -36,7 +36,7 @@ const Navbar = () => {
                     <Link onClick={() => setToggle(false)} className={styles.navLink} href="/about">About</Link>
                     <Link onClick={() => setToggle(false)} className={styles.navLink} href="/contact">Contact</Link>
                     <Link onClick={() => setToggle(false)} className={styles.navLink} href="/#services">Services</Link>
-                    <Link onClick={() => setToggle(false)} className={styles.navLink} href="/login">Login</Link>                   
+                    {/* <Link style={{backgroundColor:"red"}} onClick={() => setToggle(false)} className={styles.navLink} href="/login">Login</Link>                    */}
                 </ul>
             </div>
         </nav>

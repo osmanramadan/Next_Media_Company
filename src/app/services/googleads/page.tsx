@@ -10,7 +10,7 @@ export default function GoogleAds() {
       style={{ backgroundColor: "black", color: "white", height: "100vh" }}
     >
       <div>
-        <MainBanner title={"Google Ads"}/>
+        <MainBanner title={"Google Ads"} isservice={true}/>
         <div className={`flex flex-col md:flex-row ${style.txtbanner}`}>
           <div className={`${style.imagecontainer} w-full md:w-1/2`}>
             <img
