@@ -29,7 +29,7 @@ const Navbar = () => {
             >
                 <ul className={styles.navLinks}>
                     <Link href="/" className={styles.navlogo}>
-                      <img src="/images/logos/logo.png"/>
+                      <img src="/images/logos/logo.png" alt="logo"/>
                     </Link>
                     <Link onClick={() => setToggle(false)} className={styles.navLink} href="/">Home</Link>
                     <Link onClick={() => setToggle(false)} className={styles.navLink} href="/articles">Articles</Link>

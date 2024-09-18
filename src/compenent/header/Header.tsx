@@ -12,7 +12,7 @@ const Header = () => {
     <header className={styles.header}>
 
       <Link href="/" className={styles.logo}>
-          <img src="/images/logos/logo.PNG" alt="logo"/>
+          <img src="/images/logos/logo.PNG" alt="logo of company"/>
       </Link>
              
       <Navbar  />

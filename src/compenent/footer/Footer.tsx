@@ -79,7 +79,7 @@ export default function Footer() {
             </div> 
             </li>
             <li className="mb-4">
-              <div>   <i className="bi bi-telephone-fill" style={{ color: "#44B4EC", fontSize: "20px" }}></i>
+              <div> <i className="bi bi-telephone-fill" style={{ color: "#44B4EC", fontSize: "20px" }}></i>
               <a href='tel:0100923877' className='ml-2'>0100923877</a></div>
             </li>
             <li className="mb-4">
@@ -87,8 +87,8 @@ export default function Footer() {
               <a href='mailto:osman@gmail.com' className='ml-2'>osman@gmail.com</a></div>
             </li>
             <li className="mb-4">
-              <div>   <i className="bi bi-whatsapp" style={{ color: "#44B4EC", fontSize: "20px" }}></i>
-              <a className='ml-2'>0100823766</a></div>
+              <div> <i className="bi bi-whatsapp" style={{ color: "#44B4EC", fontSize: "20px" }}></i>
+              <a href='https://web.whatsapp.com/' className='ml-2'>0100823766</a></div>
             </li>
           </ul>
         </div>
