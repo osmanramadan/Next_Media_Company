@@ -36,8 +36,6 @@ const Banner = () => {
                 <Image 
                     src={banner} 
                     alt='banner' 
-                    width={500} 
-                    height={500} 
                 />
 
             </div>

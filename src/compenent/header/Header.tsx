@@ -4,7 +4,7 @@ import styles from "./header.module.css";
 import Navbar from './Navbar'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSignInAlt, faUserPlus } from '@fortawesome/free-solid-svg-icons';
-import LogoutButton from './LogoutButton'
+// import LogoutButton from './LogoutButton'
 
 const Header = () => {
 
@@ -12,7 +12,7 @@ const Header = () => {
     <header className={styles.header}>
 
       <Link href="/" className={styles.logo}>
-          <img src="/images/logos/logo.PNG"/>
+          <img src="/images/logos/logo.PNG" alt="logo"/>
       </Link>
              
       <Navbar  />

@@ -4,13 +4,19 @@ import style from './articles.module.css';
 import imageone from '../../../public/images/articles/one.png'
 import imagetwo from '../../../public/images/articles/two.png'
 import imagethree  from '../../../public/images/articles/three.png'
-
 import { StaticImageData } from 'next/image';
 import MainBanner from '@/compenent/services/mainbanner';
 import ArticleItem from '@/compenent/article/ArticleItem';
-
+import type { Metadata } from "next";
 
 const cairo = Cairo({ subsets: ['latin'] });
+
+export const metadata: Metadata = {
+  title: "Articles Of OnlineMedia",
+  description: "Articles specilized in services of hosting,programming,social media,seo and instgram posts",
+};
+
+
 
 interface ArticlesItemProps {
   imageSrc: StaticImageData;

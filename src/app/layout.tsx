@@ -15,6 +15,8 @@ export const metadata: Metadata = {
   description: "A company specilized in services of hosting",
 };
 
+
+
 export default function RootLayout({
   children,
 }: Readonly<{

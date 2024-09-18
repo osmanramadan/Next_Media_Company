@@ -16,6 +16,8 @@
     transition: transform 0.4s ease, background-color 0.4s ease;
 }
 
+
+
 .right {
     display: flex;
     align-items: center;
@@ -55,7 +57,7 @@
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 5px;
-    color: #555;
+    color:#555;
 }
 
 
@@ -79,8 +81,8 @@
     }
 
     .heroRight{
-        height:350px;
-        width:350px;
+        height:250px;
+        width:250px;
         padding:10px
     }
     
@@ -112,8 +114,8 @@
     }
 
     .heroRight{
-        height:300px;
-        width:300px;
+        height:200px;
+        width:200px;
     }
     
     .heroRight:hover {

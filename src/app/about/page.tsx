@@ -1,7 +1,13 @@
-
 import React from 'react';
 import style from "./about.module.css";
 import MainBanner from '@/compenent/services/mainbanner';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About OnlineMedia",
+  description: "A company specilized in services of hosting",
+};
+
 
 
 export default function AboutUs() {
