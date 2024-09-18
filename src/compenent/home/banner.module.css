@@ -81,9 +81,7 @@
     }
 
     .heroRight{
-        height:250px;
-        width:250px;
-        padding:10px
+        display:none
     }
     
     .heroRight:hover {
@@ -113,9 +111,9 @@
         padding:10px;
     }
 
+
     .heroRight{
-        height:200px;
-        width:200px;
+        display:none
     }
     
     .heroRight:hover {

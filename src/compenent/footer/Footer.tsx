@@ -97,22 +97,22 @@ export default function Footer() {
       </div>
       <div className={`flex flex-col sm:flex-row justify-center items-center mt-8 mx-2`}>
         <div className="text-sm text-white sm:text-left mx-8">
-          © 2024 <a href="https://flowbite.com/" className="hover:underline">OnlineMedia</a>: All Rights Reserved
+          © 2024 <a href="/" className="hover:underline">OnlineMedia</a>: All Rights Reserved
         </div>
 
         <div className={` md:px-3 md:py-6 py-4 px-2 bg-[#2091D3] flex justify-center rounded-md`}>
           <div className="text-center">
             <div className="flex mt-4 justify-center md:mt-0 space-x-5">
-              <a href="#" className="text-gray-400 hover:text-gray-900 dark:hover:text-white mx-2">
+              <a href="https://www.facebook.com/" className="text-gray-400 hover:text-gray-900 dark:hover:text-white mx-2">
                 <i className="bi bi-facebook w-4 h-4"></i>
               </a>
-              <a href="#" className="text-gray-400 hover:text-gray-900 dark:hover:text-white mx-2">
+              <a href="https://discord.com/" className="text-gray-400 hover:text-gray-900 dark:hover:text-white mx-2">
                 <i className="bi bi-discord w-4 h-4"></i>
               </a>
-              <a href="#" className="text-gray-400 hover:text-gray-900 dark:hover:text-white mx-2">
+              <a href="https://x.com/home" className="text-gray-400 hover:text-gray-900 dark:hover:text-white mx-2">
                 <i className="bi bi-twitter w-4 h-4"></i>
               </a>
-              <a href="#" className="text-gray-400 hover:text-gray-900 dark:hover:text-white mx-2">
+              <a href="https://www.linkedin.com/feed/" className="text-gray-400 hover:text-gray-900 dark:hover:text-white mx-2">
                 <i className="bi bi-linkedin w-4 h-4"></i>
               </a>
             </div>
