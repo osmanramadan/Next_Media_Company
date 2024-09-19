@@ -11,7 +11,7 @@ export default function AnimationVideoProduction() {
       style={{ backgroundColor: "black", color: "white", height: "100vh" }}
     >
       <div>
-        <MainBanner title={"Animation Video Production"} isservice={true}/>
+        <MainBanner title={"Animation Video Production"} isservice={true} />
         <div className={`flex flex-col md:flex-row ${style.txtbanner}`}>
           <div className={`${style.imagecontainer} w-full md:w-1/2`}>
             <img

@@ -31,21 +31,21 @@ export default function Articles() {
     {
       imageSrc: imageone,
       title: 'Instagram Ad Display Methods',
-      link:"/",
+      link:"/articles/instagram-ad-display-methods",
       date:"8 july 2002",
       paragraph:`There are various ways to display ads on Instagram, to suit all companies that want to market their products on Instagram.`,
     },
     {
       imageSrc:imagetwo,
       title: 'The cheapest prices for Facebook advertising packages in the best social media company',
-      link:"/",
+      link:"/articles/facebook-advertising-in-socialmedia-company",
       date:"8 july 2002",
       paragraph: 'Facebook advertising packages are provided to you by the best social media company, Engaz Media',
     },
     {
       imageSrc:imagethree,
       title: 'Create sponsored ads on Facebook',
-      link:"/",
+      link:"/articles/sponsored-ad-on-facebook",
       date:"8 july 2002",
       paragraph:"Creating sponsored ads on Facebook is one of the most important requirements for advertising campaigns for companies to market their products."
     }
