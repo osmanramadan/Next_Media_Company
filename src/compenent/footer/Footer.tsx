@@ -356,7 +356,7 @@ export default function Footer() {
             </li>
             <li className="mb-4">
               <div>
-                <i className="bi bi-envelope-fill" style={{ color: "#44B4EC", fontSize: "20px" }}></i>
+                <i className="bi bi-envelope-fill" style={{ color: "#44B4EC", fontSize: "17px" }}></i>
                 <Link href='mailto:osman@gmail.com' className='ml-2'>osman@gmail.com</Link>
               </div>
             </li>
