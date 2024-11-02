@@ -36,3 +36,15 @@
   color:white;
   margin-bottom:!20px
 }
+
+@media (max-width: 350px) {
+  
+  .title{
+    font-size:18px;
+   
+  }
+  .paragraph {
+    font-size: 0.9rem;
+  }
+ 
+}

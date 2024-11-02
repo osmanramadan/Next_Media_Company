@@ -26,6 +26,7 @@
   width: 110px;
 }
 
+
 .paragraph {
     font-size: 1rem;
     color:#555555;
@@ -48,3 +49,15 @@
    
    
   }
+
+  
+/* Media query for screens smaller than 768px (mobile/tablet) */
+@media (max-width: 350px) {
+
+  .paragraph {
+    font-size: 0.8rem;
+  
+  }
+  
+
+}

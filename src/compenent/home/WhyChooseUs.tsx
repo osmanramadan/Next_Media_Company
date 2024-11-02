@@ -4,10 +4,10 @@ import WhyChooseUsItem from './whyChooseUsItem';
 import { StaticImageData } from 'next/image';
 import imageone from '../../../public/images/seo.png';
 import imagetwo from '../../../public/images/integrity.png'
-import imagethree  from '../../../public/images/takelisten.png'
-import imagefour  from '../../../public/images/committime.png'
-import imagefive  from '../../../public/images/createdesigns.png'
-import imagesix  from '../../../public/images/wordpress.png'
+// import imagethree  from '../../../public/images/takelisten.png'
+// import imagefour  from '../../../public/images/committime.png'
+// import imagefive  from '../../../public/images/createdesigns.png'
+// import imagesix  from '../../../public/images/wordpress.png'
 import style from './whychooseus.module.css'
 
 
