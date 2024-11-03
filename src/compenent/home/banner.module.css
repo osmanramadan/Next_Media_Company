@@ -99,7 +99,7 @@
 }
 
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
 
     .hero {
         flex-direction: column-reverse;
@@ -121,10 +121,10 @@
     
   }
   .title {
-    font-size:28px;
+    font-size:25px;
    }
   .desc {
-    font-size: 15px;
+    font-size: 13px;
 }
 .serviceItem {
 
