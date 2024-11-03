@@ -115,23 +115,23 @@
     .heroRight{
         display:none
     }
-    
+
     .heroRight:hover {
       transform: scale(1.1);
     
-  }
-  .title {
-    font-size:25px;
-   }
-  .desc {
-    font-size: 13px;
-}
-.serviceItem {
+    }
 
-    font-size: 23px;
+    .title {
+      font-size:25px;
+    }
 
-}
+    .desc {
+      font-size: 15px; 
+    }
 
+    .serviceItem {
+      font-size: 23px;
+     }
 }
 
 
