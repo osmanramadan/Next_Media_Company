@@ -6,7 +6,13 @@
   background-color:black;
   color:white;
 }
-
+html, body {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
 
 /* For WebKit browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
